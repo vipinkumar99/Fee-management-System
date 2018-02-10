@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- BOOTSTRAP STYLES-->
+        <link href="resources/cssfile/css/bootstrap.css" rel="stylesheet" />
+       
+        <!-- FONTAWESOME STYLES-->
+        <link href="resources/cssfile/css/font-awesome.css" rel="stylesheet" />
+        <link href="resources/cssfile/css/mystyle.css" rel="stylesheet" />
+         
+
+        <title>Student</title>
+    </head>
+    <body>
+        
+        <!--star of nav-->
+
+        <nav class="navbar navbar-default navbar-fixed-top menu">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Aptron Solution</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                       
+                                    
+                                    <li><a href="Addstudent.html">Add Student</a></li>
+                    
+                  
+                        <li><a href="Viewstudent.html">View student</a></li>
+
+                        <li><a href="Deletestudent.html">Delete student</a></li>
+                                     <li><a href="Editstudent.html">Edit Student</a></li>
+                                    <li><a href="Duestudent.html">Due fee</a></li>
+                                    <li><a href="SearchStudent.html">Search</a></li>
+                                    <li><a href="AccountantLogout">Logout</a></li>
+                    
+                  
+                       
+                             </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--end of nav-->   
+        
+        <form action="StudentSearch" method="post">
+        <!--start container-->
+        <div class="container login">
+            
+            <!--start row-->
+            <div class="row" >
+                <h3 class="user text-left">Search student  </h3>
+                <div class="col-sm-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+ <input type="text" name="sregisterno" placeholder="Enter student registration number" required class="form-control">
+ </div>
+ 
+                </div>
+                
+                  
+                <div class="col-sm-4  inputtext">
+                            <div class="form-group">
+                                
+                                   <button type="submit" class="btn btn-success  form-control" value="searchRegister" name="action">Search</button>
+                               
+                            </div>
+  
+                </div>  
+            </div>
+             <br/><br/>   
+            
+            <div class="row ">
+                <h3 class="user text-left">Select the start name of student to search   </h3>
+              <ul class="pagination ">
+<li><a href="ViewByStart?start=a">A</a></li>
+<li><a href="ViewByStart?start=b">B</a></li>
+<li><a href="ViewByStart?start=c">C</a></li>
+<li><a href="ViewByStart?start=d">D</a></li>
+<li><a href="ViewByStart?start=e">E</a></li>
+<li><a href="ViewByStart?start=f">F</a></li>
+<li><a href="ViewByStart?start=g">G</a></li>
+<li><a href="ViewByStart?start=h">H</a></li>
+<li><a href="ViewByStart?start=i">I</a></li>
+<li><a href="ViewByStart?start=j">J</a></li>
+<li><a href="ViewByStart?start=k">K</a></li>
+<li><a href="ViewByStart?start=l">L</a></li>
+<li><a href="ViewByStart?start=m">M</a></li>
+<li><a href="ViewByStart?start=n">N</a></li>
+<li><a href="ViewByStart?start=o">O</a></li>
+<li><a href="ViewByStart?start=p">P</a></li>
+<li><a href="ViewByStart?start=q">Q</a></li>
+<li><a href="ViewByStart?start=r">R</a></li>
+<li><a href="ViewByStart?start=s">S</a></li>
+<li><a href="ViewByStart?start=t">T</a></li>
+<li><a href="ViewByStart?start=u">U</a></li>
+<li><a href="ViewByStart?start=v">V</a></li>
+<li><a href="ViewByStart?start=w">W</a></li>
+<li><a href="ViewByStart?start=x">X</a></li>
+<li><a href="ViewByStart?start=y">Y</a></li>
+<li><a href="ViewByStart?start=z">Z</a></li>
+
+</ul>
+  
+                
+                
+                
+                
+            </div>
+            
+            
+        <!--end container-->
+        </div>
+        </form>
+   
+        <script src="resources/cssfile/js/jquery-1.10.2.js"></script>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="resources/cssfile/js/bootstrap.js"></script>
+      
+    </body>
+</html>

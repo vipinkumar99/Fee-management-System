@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+         <!-- BOOTSTRAP STYLES-->
+        <link href="resources/cssfile/css/bootstrap.css" rel="stylesheet" />
+        <link href="resources/cssfile/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+
+        <!-- FONTAWESOME STYLES-->
+        <link href="resources/cssfile/css/font-awesome.css" rel="stylesheet" />
+        <link href="resources/cssfile/css/mystyle.css" rel="stylesheet" />
+        
+
+        <title>Account register</title>
+    </head>
+    <body>
+        
+        <!--star of nav-->
+
+        <nav class="navbar navbar-default navbar-fixed-top menu">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Aptron Solution</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                       
+                                    
+                                    <li><a href="AccountRegister.html">Add Account</a></li>
+                    
+                  
+                        <li><a href="Viewaccount.html">View Account</a></li>
+
+                       
+                                    
+                                    <li><a href="Searchaccount.html">Search</a></li>
+                                    <li><a href="AccountantLogout">Logout</a></li>
+                    
+                  
+                  
+                       
+                             </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--end of nav-->   
+        
+        <form action="AddAccountant" method="post">
+        <!--start container-->
+        <div class="container login">
+            
+            <!--start row-->
+            <div class="row" >
+                <h3 class="user text-center">Accountant Registration </h3>
+                <div class="col-sm-4 col-sm-offset-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+ <input type="text" name="username" placeholder="Enter username" required class="form-control">
+ </div>
+ 
+                </div>
+                
+                
+                
+             <div class="col-sm-4 col-sm-offset-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+ <input type="password" name="password" placeholder="Enter password" required class="form-control">
+ </div>
+ 
+                </div>    
+                
+                
+                 <div class="col-sm-4 col-sm-offset-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+ <input type="text" name="name" placeholder="Enter full name" required class="form-control">
+ </div>
+ 
+                </div>
+                
+                
+	<!--start date of birth-->
+    <div class="col-sm-4 col-sm-offset-4 inputtext">   
+<div class="input-group date form_date " data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+    <input class="form-control" size="20" type="text"  name="cdob" value="" readonly placeholder="Enter date of birth">
+</div>
+<input type="hidden" id="dtp_input2" value="" />
+ </div>
+    <!--end of date of birth-->
+    
+     
+
+                  <div class="col-sm-4 col-sm-offset-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+                    <select name="gender" class="form-control">
+                        <option value="none">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                        
+                    </select>
+                </div>
+ 
+                </div>
+                
+                
+               
+                
+                
+                
+                
+                 <div class="col-sm-4 col-sm-offset-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+                    <select name="qualification" class="form-control">
+                        <option value="none">Select qualification</option>
+                        <option value="BBA">BBA</option>
+                        <option value="MBA">MBA</option>
+                        <option value="BSC">BSC</option>
+                        <option value="MSC">MSC</option>
+                        <option value="B.COM">B.COM</option>
+                        <option value="M.COM">M.COM</option>
+                        
+                    </select>
+                </div>
+ 
+                </div>
+                
+                
+                
+               
+                  <div class="col-sm-4 col-sm-offset-4 inputtext">   
+                <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>    
+                    <select name="salary" class="form-control">
+                        <option value="none">Select Salary</option>
+                        <option value="10000">10000</option>
+                        <option value="12000">12000</option>
+                        <option value="14000">14000</option>
+                        <option value="15000">15000</option>
+                        <option value="18000">18000</option>
+                        
+                    </select>
+                </div>
+ 
+                </div>
+                
+                
+                
+                <div class="col-sm-4 col-sm-offset-4 inputtext">
+                            <div class="form-group">
+                                
+                                <input type="submit" class="btn btn-danger form-control" value="Add Customer">
+                           
+                               
+                            </div>
+  
+               
+                </div>
+                
+                
+                
+                
+            <!-- end row-->
+            
+          
+            
+        </div>
+        <!--end container-->
+
+        </div>
+        </form>
+        
+        <script src="resources/cssfile/js/jquery-1.10.2.js"></script>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="resources/cssfile/js/bootstrap.js"></script>
+        <script type="text/javascript" src="resources/cssfile/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/cssfile/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+
+	$('.form_date').datetimepicker({
+       
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		minView: 2,
+		forceParse: 0
+    });
+	
+</script>
+
+    </body>
+</html>

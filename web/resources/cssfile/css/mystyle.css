@@ -1,0 +1,62 @@
+body{font-family: Georgia, serif;font-weight:bold;background:#B0A511;}
+      
+.menu{background:#0044cc;padding: 8px;}
+.menu .navbar-brand{color: #fff;font-size:1.8em;}
+.menu .navbar-brand:hover{color: #fff;}
+.menu .navbar-nav li a{color:#fff;font-size:16px;}
+.menu .navbar-nav li a:hover{color:#291B16;background:#ffffff;border-bottom: 2px #02173E solid;}
+
+.menu .navbar-nav >.active>a{color:#291B16;background:#ffffff;border-bottom: 2px #02173E solid;}
+.menu .navbar-nav>.active>a:hover{color:#291B16;background:#ffffff;}
+.menu .dropdown .dropdown-menu{background:#B0A511;}
+
+
+#login{background:#0d0d0d;min-height: 400px;opacity: 0.75;padding: 20px 60px 40px 60px;box-shadow: -10px -10px  3px #ffffff;margin-top: 150px;border-radius: 10px;font-family: Georgia, serif;}
+.user{color:red;font-size: 20px;font-weight: bold;opacity: 0.90;}
+
+
+
+
+
+.input-group-addon{background:#5cd85c;border:#4cae4c;color:#fff;}
+.fa{width: 15px;}
+.form-control{height: 40px; color: #000000;font-family: Times New Roman;font-size: 20px;}
+.login{margin-top: 100px;}
+.inputtext{margin-top:20px;color:#000;font-size:20px;}
+.pagination li a{color:#ffffff;font-size:18px;background:#B0A511; }
+#table{ border: 8px solid #fff; background:#fff; }
+.table th{color:red;font-weight:bold;font-size:17px;}
+.table td{color:#000;font-weight:600;font-size: 18px;font-family: Times New Roman;text-transform: capitalize;}
+#btntable{height:50px;}
+.tableview{margin-left:5px;margin-top: 80px;}
+.btn-sm{width: 80px;font-size:15px;}
+.htext{color:#0044cc;font-weight: bold;opacity:0.60}
+#home-btn{border: 3px solid #fff;height:50px;border-radius:5px;font-weight:bold;background:#0d0d0d; opacity:0.60;}
+.s_btn{border: 3px solid gray;height:50px;border-radius:5px;font-weight:bold;background:#0d0d0d; opacity:0.90;color:#fff;}
+#tab_logic th{color: #fff;font-weight: bold;}
+
+.set-pad {
+    padding-top:20px;
+}
+.error-txt {
+    font-size:50px;
+    display:block;
+    padding-bottom:10px;
+    color:#fff;
+}
+.p-err {
+    font-size:30px;
+    padding:10px;
+    color: #fff;
+    font-weight:bold;
+}
+
+#error-btn{
+    height: 60px;
+    font-size: 25px;
+    color:#fff;
+    font-weight:bold;
+    border-radius: 30px;
+    
+}
+

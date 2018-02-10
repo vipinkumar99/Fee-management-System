@@ -1,0 +1,22 @@
+.set-pad {
+    padding-top:120px;
+}
+.error-txt {
+    font-size:50px;
+    display:block;
+    padding-bottom:10px;
+    color:#fff;
+}
+.p-err {
+    font-size:20px;
+    padding:20px;
+    color: #fff;
+    display:block;
+}
+
+#error-btn{
+    height: 50px;
+    font-size: 20px;
+    
+}
+
